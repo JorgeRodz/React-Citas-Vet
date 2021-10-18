@@ -13,7 +13,7 @@ const Cita = ({ cita, eliminarCita }) => {
         <button
           className="button eliminar u-full-widht"
           onClick={()=> eliminarCita(cita.id)} /* Pasamos un arrow function la cual contendra la cita a eliminar cuando se le de click al boton */
-        >Eliminar &times;</button>
+        >Eliminar ❌</button>
     </div>
   );
 };

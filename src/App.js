@@ -29,11 +29,12 @@ function App() {
     guardarCitas(nuevasCitas);
   };
 
-  const titulo = citas.length === 0 ? "No hay citas" : "Administra tus citas";
+  const titulo =
+    citas.length === 0 ? "No hay citas 📂" : "Administra tus citas 🧑‍💻";
 
   return (
     <>
-      <h1>Administrador de Pacientes Canicos</h1>
+      <h1>🐕️ Administrador de Pacientes Canicos 🐕️</h1>
       <div className="container">
         <div className="one-half column">
           {/* prettier-ignore */}
