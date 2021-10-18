@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <h1>🐕️ Administrador de Pacientes Canicos 🐕️</h1>
+      <h1>🐶 Administrador de Pacientes Canicos 🐕️</h1>
       <div className="container">
         <div className="one-half column">
           {/* prettier-ignore */}
